@@ -53,15 +53,15 @@ your custom model
 ### T3: Augment resnet 18 with the following modules:
 * CUBS Block 1
 
-![alt text]()
+![alt text](https://github.com/rnair56/RESNET-TRANSFORMER/blob/main/CUBS_1.png)
 
 * CUBS Block 2
 
-![alt text]()
+![alt text](https://github.com/rnair56/RESNET-TRANSFORMER/blob/main/CUBS_2.png)
 
 Add these new modules after each residual block in one of the following fashions:
 
-![alt text]()
+![alt text](https://github.com/rnair56/RESNET-TRANSFORMER/blob/main/ARCH.png)
 
 ### T4: Implement retrieval task using Augmented Architecture.
 ○ Using the new resnet architecture, train the model on the first 98 classes of the
@@ -76,4 +76,4 @@ single 512 dimensional embedding.
 ■ Compute hard positives and hard negatives (can innovate here!)
 ■ Use the below formulation to compute the loss
 
-![alt text]()
+![alt text](https://github.com/rnair56/RESNET-TRANSFORMER/blob/main/DML_LOSS.png)
